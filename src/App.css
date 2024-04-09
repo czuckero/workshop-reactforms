@@ -18,6 +18,31 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  margin: 5px
+}
+
+form {
+  background-color: rgb(202, 186, 235);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form-container {
+  background-color: rgb(238, 224, 253);
+  padding: 0px 15px 15px 15px;
+  border-radius: 10px;
+}
+
+.success-message {
+  color: rgb(127, 144, 255);
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
